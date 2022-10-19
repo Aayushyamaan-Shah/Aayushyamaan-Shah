@@ -1,0 +1,64 @@
+div.content_block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+div.content_block .slogan :is(p) {
+  text-align: center;
+  font-size: 2em;
+  color: #1e1e1e;
+}
+
+section {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section div div {
+  width: 85%;
+}
+
+section div div.slogan {
+  margin-top: 2%;
+  margin-bottom: 1%;
+}
+
+section hr {
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+div.content > :is(p) {
+  font-size: 1.35em;
+  color: #4b4b4b;
+  text-align: justify;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+div.content > :is(p) :is(u) {
+  color: #ff9100;
+  text-decoration: none;
+}
+
+div.heading > p {
+  text-align: center;
+  font-size: 2.25em;
+  font-weight: 2  00;
+}
+/*# sourceMappingURL=section_mobile.css.map */

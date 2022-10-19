@@ -1,0 +1,79 @@
+section {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section div div {
+  width: 50%;
+  margin-top: 2%;
+  margin-bottom: 3%;
+}
+
+section:nth-child(odd) > div div.slogan {
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+}
+
+section:nth-child(odd) > div div.content {
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+}
+
+section:nth-child(even) > div div.slogan {
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+}
+
+section:nth-child(even) > div div.content {
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+}
+
+section hr {
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+section div.content_block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+section div.content_block .slogan :is(p) {
+  text-align: center;
+  font-size: 2.1875em;
+  color: #1e1e1e;
+}
+
+section div.content_block :is(p) {
+  font-size: 1.5em;
+  color: #4b4b4b;
+  text-align: center;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+section div.content_block :is(p) :is(u) {
+  color: #ff9100;
+  text-decoration: none;
+}
+
+div.heading > p {
+  text-align: center;
+  font-size: 2.5em;
+  font-weight: 4  00;
+}
+/*# sourceMappingURL=section.css.map */

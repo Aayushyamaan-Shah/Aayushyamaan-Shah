@@ -1,0 +1,72 @@
+footer {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.foot {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.foot .social {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.foot .social a {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: -webkit-transform 0.125s ease;
+  transition: -webkit-transform 0.125s ease;
+  transition: transform 0.125s ease;
+  transition: transform 0.125s ease, -webkit-transform 0.125s ease;
+}
+
+.foot .social a img {
+  height: 2.25em;
+  width: 2.25em;
+  margin-bottom: 0%;
+}
+
+.foot .social a p {
+  font-size: 0%;
+}
+
+.foot .social a:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: -webkit-transform 0.125s ease;
+  transition: -webkit-transform 0.125s ease;
+  transition: transform 0.125s ease;
+  transition: transform 0.125s ease, -webkit-transform 0.125s ease;
+}
+/*# sourceMappingURL=footer_mobile.css.map */

@@ -1,0 +1,41 @@
+div.navbar {
+  z-index: 100;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: -webkit-sticky;
+  position: sticky;
+  width: auto;
+  top: 0px;
+  padding: 0.625em;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+a.navigation {
+  padding: 0.625em;
+}
+
+a, a.navigation :is(:default, :active, :visited) {
+  font-size: 1.5em;
+  text-decoration: none;
+  color: black;
+}
+
+:is(a.navigation:hover, a.navigation:focus) {
+  -webkit-transition: background-color 0.5s ease;
+  transition: background-color 0.5s ease;
+  -webkit-transition: color 0.2s ease;
+  transition: color 0.2s ease;
+  font-size: 1.5em;
+  color: #ffffff;
+  background-color: #00cc33;
+  font-style: normal;
+  text-decoration: none;
+}
+/*# sourceMappingURL=navigation_mobile.css.map */

@@ -1,0 +1,63 @@
+header.main {
+  background-image: url("../images/desk-1081708_1920_edited.jpg.png");
+  background-size: 250%;
+  background-position: 50%;
+  padding: 0px;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: calc(100vw * (16 / 10));
+  overflow: hidden;
+  background-color: #cccccc;
+  z-index: 1;
+}
+
+header.main div.starter {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  color: black;
+  position: absolute;
+  margin-left: 20%;
+  margin-top: 39%;
+  z-index: 5;
+}
+
+header.main div.starter p {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  font-style: italic;
+  font-size: 1.8em;
+}
+
+header.main div.my_name {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  font-weight: 400;
+  color: black;
+  margin-top: 45%;
+  position: absolute;
+  z-index: 4;
+}
+
+header.main div.my_name u {
+  text-decoration: underline;
+  -webkit-text-decoration-color: #ff9100;
+          text-decoration-color: #ff9100;
+  text-decoration-thickness: 3.5px;
+}
+
+header.main div.my_name p {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  font-size: 2.75em;
+}
+/*# sourceMappingURL=header_mobile.css.map */
