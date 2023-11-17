@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Aayushyamaan Shah</h1>
-<h3 align="center">A full stack IoT developer from India</h3>
+<h3 align="center">A full stack IoT developer and gamer from India</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=aayushyamaan-shah&label=Profile%20views&color=0e75b6&style=flat" alt="aayushyamaan-shah" /> </p>
 
