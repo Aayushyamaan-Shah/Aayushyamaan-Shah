@@ -5,9 +5,9 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=aayushyamaan-shah" alt="aayushyamaan-shah" /></a> </p>
 
-- 🔭 I’m currently working on **ZAP Attendance System**
+- 🔭 I’m currently working on **IIT Jammu's Incubation Website**
 
-- 🌱 I’m currently learning **Laravel, PostgreSQL, PlanetScale and a few other IoT technologies**
+- 🌱 I’m currently learning **Rust, React, and CI/CD Pipelining**
 
 - 👨‍💻 All of my projects are available at [aayushyamaan-shah.teamelementals.in](aayushyamaan-shah.teamelementals.in)
 
